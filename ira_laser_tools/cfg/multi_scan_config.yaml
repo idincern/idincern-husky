@@ -1,0 +1,29 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  angle_increment: 0.0058
+  angle_max: 3.14
+  angle_min: -3.14
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      angle_increment: 0.0058
+      angle_max: 3.14
+      angle_min: -3.14
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      range_max: 30.0
+      range_min: 0.0
+      scan_time: 0.033333333
+      state: true
+      time_increment: 0.0
+      type: ''
+    state: []
+  range_max: 30.0
+  range_min: 0.0
+  scan_time: 0.033333333
+  time_increment: 0.0
+state: []

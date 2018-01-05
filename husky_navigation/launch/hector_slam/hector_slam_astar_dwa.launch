@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<!--- Run Hector SLAM -->
+	<include file="$(find husky_navigation)/launch/hector_slam/hector_slam.launch" />
+
+	<!--- Run Move Base -->
+  	<include file="$(find husky_navigation)/launch/move_base/move_base_astar_dwa.launch" />
+
+</launch>

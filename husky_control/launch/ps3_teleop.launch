@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="joy_dev" default="/dev/input/js0" />
+  <arg name="joystick" default="true" />
+
+  <group ns="joy_teleop">
+
+    <rosparam command="load" file="$(find husky_control)/config/teleop2.yaml" />
+    <node pkg="joy" type="joy_node" name="ps3_joy" output="screen" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+    </node>
+    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy"/>
+  </group>
+
+</launch>
