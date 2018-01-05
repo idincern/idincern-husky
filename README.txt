@@ -22,6 +22,13 @@ $ roslaunch husky_control ps3_teleop.launch
 -------------------------------------------------------------
 AMCL 
 
+Global Planners:
+	A*
+	Dijkstra
+Local Planners:
+	DWA
+	TEB
+	
 $ roslaunch husky_navigation amcl_astar_dwa.launch 
 ---or---
 $ roslaunch husky_navigation amcl_astar_teb.launch
