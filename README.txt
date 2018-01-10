@@ -1,8 +1,8 @@
 I.DINCER.N
 ISTANBUL TECHNICAL UNIVERSITY
 
-AUTONOMOUS ROBOT NAVIGATION USING ROS
-Clearpath Husky A200 robot navigation with Gazebo and RViz simulations using different SLAM and Path Planning algorithms. 
+AUTONOMOUS ROBOT NAVIGATION USING ROS 
+Clearpath Husky A200 robot navigation with Gazebo and RViz simulations using different SLAM and Path Planning algorithms. 360 degrees laser scan with two SICK LMS511 LIDARs.
 
 ------------------------------------------------------------- 
 SIMULATION WORLD LAUNCH
