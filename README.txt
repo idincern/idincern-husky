@@ -1,5 +1,7 @@
-I.DINCER.N
+I.DINCER.N.
 ISTANBUL TECHNICAL UNIVERSITY
+
+-------------------------------------------------------------
 
 AUTONOMOUS ROBOT NAVIGATION USING ROS 
 Clearpath Husky A200 robot navigation with Gazebo and RViz simulations using different SLAM and Path Planning algorithms. 360 degrees laser scan with two SICK LMS511 LIDARs.
@@ -41,6 +43,8 @@ $ roslaunch husky_navigation amcl_dijkstra_teb.launch
 
 GMAPPING SLAM with Path Planning Algorithms
 
+Youtube Video: https://www.youtube.com/watch?v=Q_ITD5nnFks&t=51s
+
 Global Planners:
 	A*
 	Dijkstra
@@ -63,6 +67,8 @@ To save the generated map, you can run the map_saver utility:
 -------------------------------------------------------------
 
 HECTOR SLAM with Path Planning Algorithms
+
+Youtube Video: https://www.youtube.com/watch?v=HFuBhpLCG8g&t=29s
 
 Global Planners:
 	A*
@@ -103,3 +109,5 @@ $ roslaunch husky_navigation move_base_mapless_dijkstra_dwa.launch
 $ roslaunch husky_navigation move_base_mapless_dijkstra_teb.launch
 
 ---------------------------------------------------------------------------------------------------
+
+
